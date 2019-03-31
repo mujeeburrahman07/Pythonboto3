@@ -6,6 +6,7 @@ REQUIRED_SERVICE_TO_CHECK = "ec2"
 import re
 
 #This line is added to check the commit changes on github
+#this is new line
 def lambda_handler(event, context):
     # TODO implement
     print ("event", event)

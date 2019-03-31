@@ -5,7 +5,7 @@ DEFAULT_POLICY_ARN_TO_ATTACH = "arn:aws:iam::aws:policy/service-role/AmazonEC2Ro
 REQUIRED_SERVICE_TO_CHECK = "ec2"
 import re
 
-
+#This line is added to check the commit changes on github
 def lambda_handler(event, context):
     # TODO implement
     print ("event", event)
